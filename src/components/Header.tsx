@@ -31,21 +31,21 @@ export default function Header() {
               </SheetTitle>
             </SheetHeader>
             <nav className="flex flex-col gap-6 text-lg font-light">
-              <Link href="/lookbook" onClick={closeMenu} className="hover:line-through">LOOKBOOK</Link>
-              <Link href="/shop" onClick={closeMenu} className="hover:line-through">SHOP</Link>
-              <Link href="/concept" onClick={closeMenu} className="hover:line-through">CONCEPT</Link>
-              <Link href="/about" onClick={closeMenu} className="hover:line-through">ABOUT</Link>
+              <Link href="/lookbook" onClick={closeMenu} className="hover:text-[var(--color-kitsch-pink)] transition-colors">LOOKBOOK</Link>
+              <Link href="/product" onClick={closeMenu} className="hover:text-[var(--color-kitsch-yellow)] transition-colors">PRODUCT (상품)</Link>
+              <Link href="/contact" onClick={closeMenu} className="hover:text-[var(--color-kitsch-blue)] transition-colors">CONTACT</Link>
             </nav>
           </SheetContent>
         </Sheet>
         
         <nav className="hidden md:flex items-center gap-8 text-xs tracking-[0.2em] font-light">
-          <Link href="/lookbook" className="hover:opacity-50 transition-opacity uppercase">Lookbook</Link>
-          <Link href="/shop" className="hover:opacity-50 transition-opacity uppercase">Shop</Link>
+          <Link href="/lookbook" className="hover:text-[var(--color-kitsch-pink)] transition-colors uppercase">Lookbook</Link>
+          <Link href="/product" className="hover:text-[var(--color-kitsch-yellow)] transition-colors uppercase">Product (상품)</Link>
+          <Link href="/contact" className="hover:text-[var(--color-kitsch-blue)] transition-colors uppercase">Contact</Link>
         </nav>
       </div>
 
-      <Link href="/" className="absolute left-1/2 -translate-x-1/2 text-xl font-light tracking-[0.3em] uppercase">
+      <Link href="/" className="absolute left-1/2 -translate-x-1/2 text-2xl font-bold tracking-[0.2em] uppercase italic text-[var(--color-kitsch-pink)] hover:text-[var(--color-kitsch-yellow)] transition-all duration-300 drop-shadow-[2px_2px_0px_rgba(0,0,0,1)]">
         cherishmoa
       </Link>
 

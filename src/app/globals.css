@@ -32,6 +32,12 @@
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
+
+  /* Kitsch Colors */
+  --color-kitsch-pink: #FF00FF;
+  --color-kitsch-yellow: #FFFF00;
+  --color-kitsch-blue: #00FFFF;
+  --color-kitsch-green: #00FF00;
 }
 
 @layer base {

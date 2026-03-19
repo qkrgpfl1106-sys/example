@@ -41,7 +41,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/10 transition-colors hover:bg-black/20" />
         <div className="relative z-10 text-center text-white px-4">
           <p className="text-xs tracking-[0.4em] mb-4 opacity-80 uppercase">2026 Spring Collection</p>
-          <h1 className="text-4xl md:text-7xl font-light tracking-tighter mb-8 italic lowercase">
+          <h1 className="text-4xl md:text-7xl font-bold tracking-tighter mb-8 italic lowercase text-white drop-shadow-[4px_4px_0px_var(--color-kitsch-pink)]">
             it&apos;s important to cherish every little moment.
           </h1>
           <Link 
@@ -82,7 +82,7 @@ export default function Home() {
                 {item.description}
               </p>
               <Link 
-                href="/shop" 
+                href="/product" 
                 className="inline-flex items-center gap-2 group text-sm tracking-widest uppercase hover:underline underline-offset-8 transition-all"
               >
                 DISCOVER MORE <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
